@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbits Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #8fc4a9;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #8fc4a9;
+        }
+
+        .hero {
+            background: url('https://fotoblik.ru/wp-content/uploads/2023/09/dekorativnyi-krolik-13.webp') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .content h2 {
+            margin-top: 0;
+            color: #8fc4a9;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #444;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #8fc4a9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Rabbit World</h1>
+    <p>Your ultimate destination to learn about rabbits.</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contacts">Contacts</a>
+</nav>
+
+<div id="home" class="hero">
+    <h1>Discover the World of Rabbits</h1>
+</div>
+
+<section id="about" class="content">
+    <h2>About Rabbits</h2>
+    <p>Rabbits are small mammals known for their long ears and fluffy tails. They are herbivores and can be found all over the world. Rabbits are social and playful creatures, making them great pets for those who love animals.</p>
+</section>
+
+<section id="gallery" class="content">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://fotoblik.ru/wp-content/uploads/2023/09/milye-kroliki-50.webp" alt="Rabbit 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ilPezlPfdMAT-P9kw-Hfhtnm5OPqbvv7cA&s" alt="Rabbit 2">
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/98986/pub_5a0beefc2480902178587556_5a0bef71581669840fa117a9/scale_1200" alt="Rabbit 3">
+        <img src="https://www.youloveit.ru/uploads/posts/2018-01/1517050342_youloveit_ru_zastavki_na_telefon_kroliki_kartinki_milota06.png" alt="Rabbit 4">
+    </div>
+</section>
+
+<section id="contacts" class="content">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:rabbitworld@example.com">cuterabbi@krolik.com</a></p>
+    <p>Phone: +123 456 7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Rabbit World. All Rights Reserved. <a href="#home">Back to top</a></p>
+</footer>
+
+</body>
+</html>
