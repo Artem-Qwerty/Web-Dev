@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // Unlike variables, objects are making a reference for different names instead of copies
+  // Changing a "copied" object will lead to change of all referenced objects
+  let user = { name: "John" };
+
+  let permissions1 = { canView: true };
+  let permissions2 = { canEdit: true };
+
+  // copies all properties from permissions1 and permissions2 into user
+  Object.assign(user, permissions1, permissions2);
+
+  // now user = { name: "John", canView: true, canEdit: true }
+  alert(user.name); // John
+  alert(user.canView); // true
+  alert(user.canEdit); // true
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let user = {     // an object
+    name: "John",  // by key "name" store value "John"
+    age: 30        // by key "age" store value 30
+    "likes birds": true  // multiword property name must be quoted
+  };
+  // get property values of the object:
+  alert( user.name ); // John
+  alert( user.age ); // 30
+
+  delete user.age;
+
+  //There’s an alternative “square bracket notation” that works with any string:
+  let user = {};
+
+  // set
+  user["likes birds"] = true;
+
+  // get
+  alert(user["likes birds"]); // true
+
+  // delete
+  delete user["likes birds"];
+</script>
+</body>
+</html>
