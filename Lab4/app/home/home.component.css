@@ -1,0 +1,17 @@
+.listing{
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+  margin-outside: auto;
+  padding: 5px;
+  margin: 5px;
+  grid-column-gap: 30px;
+
+}
+
+.listing:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

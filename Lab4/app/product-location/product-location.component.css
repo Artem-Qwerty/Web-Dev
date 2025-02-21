@@ -1,0 +1,91 @@
+.listing {
+  max-width: 300px;
+  border-radius: 20px;
+
+  border: 2px solid #ccc;
+  padding: 3px 10px 10px 10px;
+  display: inline-block;
+  background-color: #FCF6F5;
+}
+.listing-heading {
+
+  border: black solid 1px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  color: #FCF6F5;
+  background-color: #990011;
+}
+.listing-photo {
+  object-fit: contain;
+  height: 200px;
+  width: 150px;
+
+}
+
+.listing-heading{
+
+  margin: auto;
+  text-align: justify;
+}
+.listing-description{
+  padding-top : 5px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  font-family: "Tw Cen MT Condensed", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+}
+
+section.listing a {
+  padding-left: 20%;
+  text-decoration: none;
+
+}
+
+/* From Uiverse.io by faxriddin20 */
+.telegram {
+  transition: none 0.5s ease;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 130px;
+  height: 50px;
+  gap: 10px;
+  border: none;
+  background-color: rgb(42 171 238);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.telegram-text {
+  transition: none 0.3s ease;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.telegram:hover .telegram-text {
+  display: none;
+  position: absolute;
+}
+
+.telegram-svg {
+  width: 23px;
+  height: 23px;
+  transition: 0.8s;
+}
+
+.telegram:hover .telegram-svg {
+  margin-left: 40px;
+  display: block;
+  transform: rotate(50deg);
+}
